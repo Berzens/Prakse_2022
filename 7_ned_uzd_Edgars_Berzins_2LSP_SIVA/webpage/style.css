@@ -1,0 +1,71 @@
+* {
+        margin: 0;
+        padding: 0;
+  }
+
+.background-image {
+    background-image: url("https://wallpaper.dog/large/20459082.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+}
+
+.container {
+    max-width: 804px;
+    min-width: 400px;
+    height: 610px;
+    border: 16px solid transparent;
+    overflow: auto;
+    align-self: center;
+    margin: auto;
+}
+
+.about-me {
+    background-color: white;
+    min-width: 400px;
+    max-width: 804px;
+    border-radius: 7px;
+    margin-bottom: 16px;
+}
+
+.about-me p {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.data-form {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.data-form form {
+    padding: 40px;
+}
+
+.user-info input {
+    margin-bottom: 10px;
+}
+
+.prog-lang {
+    margin-top: 30px;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+}
+
+input[type="submit"]:hover {
+    background-color: #059862;
+}
